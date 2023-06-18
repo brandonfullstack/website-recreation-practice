@@ -15,4 +15,11 @@ window.addEventListener("load", function() {
   pElement.append("The HTML of this webpage was created with JavaScript.");
   const topBody2 = document.querySelector("body");
   topBody2.append(pElement);
+
+  const imgElement = document.createElement("img");
+  imgElement.setAttribute("src", "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/900");
+  imgElement.setAttribute("alt", "This is an image of a Multicolored Tanager bird from birdsoftheworld.org");
+  imgElement.setAttribute("style", "width:50%");
+  const topBody3 = document.querySelector("body");
+  topBody3.append(imgElement);
 });
