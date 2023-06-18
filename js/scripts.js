@@ -27,4 +27,12 @@ window.addEventListener("load", function() {
   h1Element2.append("Facts about the Multicolored Tanager");
   const topBody4 = document.querySelector("body");
   topBody4.append(h1Element2);
+
+  const ul = document.createElement("ul");
+  document.querySelector("body").append(ul);
+  const liOne = document.createElement("li");
+  const liTwo = document.createElement("li");
+  liOne.append("It is endemic to the mountains of Colombia.");
+  liTwo.append("It usually searches for insects on the underside of leaves of outer limbs while clinging to leaves with its feet.");
+  document.querySelector("body").append(liOne, liTwo);
 });
