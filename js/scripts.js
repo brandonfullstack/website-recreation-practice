@@ -22,4 +22,9 @@ window.addEventListener("load", function() {
   imgElement.setAttribute("style", "width:50%");
   const topBody3 = document.querySelector("body");
   topBody3.append(imgElement);
+
+  const h1Element2 = document.createElement("h1");
+  h1Element2.append("Facts about the Multicolored Tanager");
+  const topBody4 = document.querySelector("body");
+  topBody4.append(h1Element2);
 });
