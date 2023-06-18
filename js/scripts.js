@@ -40,4 +40,10 @@ window.addEventListener("load", function() {
   h2Element.append("Source");
   const topBody5 = document.querySelector("body");
   topBody5.append(h2Element);
+
+  const aElement = document.createElement("a");
+  aElement.setAttribute("href", "https://en.wikipedia.org/wiki/Multicoloured_tanager");
+  aElement.append("Wikipedia");
+  const topBody6 = document.querySelector("body");
+  topBody6.append(aElement);
 });
