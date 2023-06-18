@@ -35,4 +35,9 @@ window.addEventListener("load", function() {
   liOne.append("It is endemic to the mountains of Colombia.");
   liTwo.append("It usually searches for insects on the underside of leaves of outer limbs while clinging to leaves with its feet.");
   document.querySelector("body").append(liOne, liTwo);
+
+  const h2Element = document.createElement("h2");
+  h2Element.append("Source");
+  const topBody5 = document.querySelector("body");
+  topBody5.append(h2Element);
 });
